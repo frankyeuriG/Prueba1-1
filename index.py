@@ -139,6 +139,8 @@ class Product:
         self.message['text'] = 'Acutalizado'
         self.get_product()
 
+
+
 if __name__ == '__main__':
  window = Tk()
  application = Product(window)
